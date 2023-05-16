@@ -1,7 +1,7 @@
 
 #include <bits/stdc++.h>
 #include <string>
-#define CATCH_CONFIG_MAIN
+
 #include "catch.hpp"
 
 using namespace std;

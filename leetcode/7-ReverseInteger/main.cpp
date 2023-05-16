@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 
-#define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 class Solution {

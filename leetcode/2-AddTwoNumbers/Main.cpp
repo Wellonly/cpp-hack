@@ -1,7 +1,6 @@
-#define CATCH_CONFIG_MAIN
-#include "catch.hpp"
-
 #include <vector>
+
+#include "catch.hpp"
 
 struct ListNode
 {

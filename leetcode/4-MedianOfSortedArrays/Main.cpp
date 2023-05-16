@@ -1,8 +1,7 @@
-#define CATCH_CONFIG_MAIN
-#include "catch.hpp"
-
 #include <vector>
 #include <map>
+
+#include "catch.hpp"
 
 using namespace std;
 

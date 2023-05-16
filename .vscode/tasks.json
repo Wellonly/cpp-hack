@@ -15,7 +15,7 @@
         "-fdiagnostics-color=always",
         "-g",
         "-Wall",
-        "-I../../lib",
+        "-I${workspaceFolder}/lib",
         "${file}",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}.bin"

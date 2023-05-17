@@ -9,16 +9,16 @@ using namespace std;
 class Solution {
 public:
   void solve(string& s) {
+    if (s.find(" ") == string::npos) return s;
     auto len = s.length();
     for (uint i = 0; i < len/2; i++) {
       char sv = s[i];
       s[i] = s[len-i-1];
       s[len-i-1] = sv;
     }
-    uint pos = 0;
+    uint pos = s.find_first_not_of(" ");
     while (pos < s.length()) {
       uint next = min(s.find(" ",pos), s.length())-1;
-      if (next == string::npos) {pos++; continue;} //first(last) space skip
       size_t to = pos+(next-pos+1)/2;
       for (uint i = pos; i < to; i++) {
         char sv = s[i];
@@ -31,7 +31,7 @@ public:
 };
 
 
-TEST_CASE("Reposition words", "[tests]")
+TEST_CASE("Reverse words in a string", "[tests]")
 {
     Solution solution;
     string test;
@@ -42,10 +42,10 @@ TEST_CASE("Reposition words", "[tests]")
         REQUIRE(test == "fox brown quick");
     }
 
-    SECTION("Sample Input 2")
+    SECTION("Sample Input 2: end by space")
     {
-        test = "hello every body there ";
+        test = "good end well ";
         solution.solve(test);
-        REQUIRE(test == " there body every hello");
+        REQUIRE(test == " well end good");
     }
 }

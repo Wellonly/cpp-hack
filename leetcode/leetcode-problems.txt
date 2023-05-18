@@ -1,5 +1,4 @@
-
-Status Title Solution Acceptance Difficulty Frequency
+TitleSolution Acceptance Difficulty
 1. Two Sum
 49.8%
 Easy
@@ -1221,13 +1220,6 @@ Medium
 400. Nth Digit
 34.2%
 Medium
-
-Status
-Title
-Solution
-Acceptance
-Difficulty
-Frequency
 401. Binary Watch
 52.5%
 Easy
@@ -7975,13 +7967,6 @@ Medium
 2600. K Items With the Maximum Sum
 61.9%
 Easy
-
-Status
-Title
-Solution
-Acceptance
-Difficulty
-Frequency
 2601. Prime Subtraction Operation
 36.8%
 Medium

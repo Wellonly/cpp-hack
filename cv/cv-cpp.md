@@ -20,7 +20,7 @@ Telegram: https://t.me/wellfly ; E-mail: well6mail@gmail.com
 
 - Умею реализовывать информационные высоконагруженные сервисы с расширенным API backend'а с реализацией [REST](https://restfulapi.net) и [GraphQL](https://graphql.org) интерфейсов;
 
-- Умею интегрировать различные информационные сервисы в Web/Desktop приложения с реализацией API на С++ совместно с Javascript/Typescript, в том числе и с применением технологии [WebAssembly](https://webassembly.org);
+- Умею интегрировать различные информационные сервисы в Web/Desktop приложения с реализацией API на С++ совместно с JavaScript/TypeScript, в том числе и с применением технологии [WebAssembly](https://webassembly.org);
 
 - Имею опыт реализации пользовательских интерфейсов на [Qt Creator](https://www.qt.io/product/development-tools) и [Electron](https://electronjs.org);
 
